@@ -2,7 +2,7 @@ function takeANumber(line,PersonName) {
     line.push(PersonName); //return length of line
     //var position = line.indexOf(PersonName) + 1;
     //line.length
-    return "Welcome, " + PersonName + ". You are number "+ line.push(PersonName) +" in line.";
+    return "Welcome, " + PersonName + ". You are number "+ line.push(PersonName) - 1 +" in line.";
 }
 
 function nowServing(line){

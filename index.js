@@ -1,6 +1,6 @@
 function takeANumber(line,PersonName) {
     line.push(PersonName); //return length of line
-    var position = line.indexOf(PersonName) + 1;
+    //var position = line.indexOf(PersonName) + 1;
     //line.length
     return "Welcome, " + PersonName + ". You are number "+ line.push(PersonName) +" in line.";
 }

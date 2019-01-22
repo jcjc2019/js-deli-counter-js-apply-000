@@ -1,9 +1,11 @@
-function takeANumber(line,PersonName) {
+function takeANumber(line) {
     //line.push(PersonName); //return length of line
     //var position = line.indexOf(PersonName) + 1;
     //line.length
-    return "Welcome, " + PersonName + ". You are number "+ line.push(PersonName) +" in line.";
+    return "Welcome. You are number "+ line.push(line.length + 1)+" in line.";
 }
+
+
 
 function nowServing(line){
   if (line.length===0) {

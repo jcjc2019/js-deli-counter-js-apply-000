@@ -1,8 +1,8 @@
 function takeANumber(line) {
-    line.push(PersonName); //return length of line
-    var position = line.indexOf(PersonName) + 1;
+    //line.push(PersonName); //return length of line
+    //var position = line.indexOf(PersonName) + 1;
     //line.length
-    return "Welcome, " + PersonName +". You are number "+ line.push()+" in line.";
+    return "Welcome, " + PersonName +". You are number "+ line.push(PersonName)+" in line.";
 }
 
 

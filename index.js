@@ -1,4 +1,4 @@
-function takeANumber(line) {
+function takeANumber(line,PersonName) {
     //line.push(PersonName); //return length of line
     //var position = line.indexOf(PersonName) + 1;
     //line.length
